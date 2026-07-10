@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#121212;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#1b1b1b;
+    padding:20px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.pet-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+
+    padding:20px;
+}
+
+.pet-card{
+    background:#1f1f1f;
+
+    border-radius:12px;
+
+    overflow:hidden;
+}
+
+.pet-card img{
+    width:100%;
+    height:220px;
+
+    object-fit:cover;
+}
+
+.pet-info{
+    padding:15px;
+}
+
+.pet-info h3{
+    margin-bottom:10px;
+}
