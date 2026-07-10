@@ -219,3 +219,63 @@ footer{
     color:#777;
 
 }
+.page-title{
+
+text-align:center;
+
+margin:40px 0;
+
+}
+
+
+
+.filters{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+justify-content:center;
+
+padding:20px;
+
+}
+
+
+
+.filters input,
+.filters select{
+
+
+background:#1b1b22;
+
+color:white;
+
+border:1px solid #333;
+
+padding:12px;
+
+border-radius:10px;
+
+font-size:15px;
+
+
+}
+
+
+
+.filters input{
+
+width:250px;
+
+}
+
+
+
+.filters select{
+
+cursor:pointer;
+
+}
