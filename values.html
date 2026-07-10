@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pet Values - Values</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+<div class="logo">
+🐾 Pet Values
+</div>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="values.html">Values</a>
+<a href="calculator.html">Calculator</a>
+<a href="changes.html">Changes</a>
+
+</nav>
+
+
+</header>
+
+
+
+<main>
+
+
+<h1 class="page-title">
+Pet Values
+</h1>
+
+
+
+<section class="filters">
+
+
+<input 
+id="searchInput"
+placeholder="🔍 Search pet..."
+>
+
+
+
+<select id="raritySelect">
+
+<option value="all">
+All Rarity
+</option>
+
+<option value="Basic">
+Basic
+</option>
+
+<option value="Rare">
+Rare
+</option>
+
+<option value="Legendary">
+Legendary
+</option>
+
+<option value="Mythic">
+Mythic
+</option>
+
+</select>
+
+
+
+<select id="demandSelect">
+
+<option value="all">
+All Demand
+</option>
+
+<option value="1">
+★☆☆ Low
+</option>
+
+<option value="2">
+★★☆ Medium
+</option>
+
+<option value="3">
+★★★ High
+</option>
+
+<option value="4">
+★★★🔥 Perfect
+</option>
+
+</select>
+
+
+
+<select id="versionSelect">
+
+<option value="normal">
+Normal
+</option>
+
+<option value="vintage">
+💿 Vintage
+</option>
+
+<option value="neon">
+🔮 Neon
+</option>
+
+</select>
+
+
+
+
+<select id="sortSelect">
+
+
+<option value="default">
+Sort
+</option>
+
+
+<option value="valueDesc">
+Value ↓
+</option>
+
+
+<option value="valueAsc">
+Value ↑
+</option>
+
+
+<option value="demandDesc">
+Demand ↓
+</option>
+
+
+<option value="demandAsc">
+Demand ↑
+</option>
+
+
+<option value="az">
+A → Z
+</option>
+
+
+<option value="za">
+Z → A
+</option>
+
+
+</select>
+
+
+
+</section>
+
+
+
+
+<section>
+
+<div id="valuesContainer" class="pet-grid">
+
+</div>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<script src="js/data.js"></script>
+<script src="js/values.js"></script>
+
+
+</body>
+
+</html>
