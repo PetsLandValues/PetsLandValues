@@ -19,7 +19,7 @@ const pets = [
 
     name:"Mint Chip Lemur",
 
-    image:"images/pets/mint-chip-lemur.png",
+    image:"image/pets/IMG_20260711_003010_288359.png",
 
     rarity:"Legendary",
 
@@ -52,7 +52,8 @@ const pets = [
 
     name:"Chocobara",
 
-    image:"images/pets/chocobara.png",
+    image:"images/pets/IMG_20260711_003239_086675.png
+",
 
     rarity:"Rare",
 
