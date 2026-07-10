@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    background:#101014;
+
+    color:white;
+
+    font-family:Arial, sans-serif;
+
+}
+
+
+
+.header{
+
+    background:#181820;
+
+    padding:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.logo{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-left:20px;
+
+}
+
+
+
+nav a:hover{
+
+    color:#8f7cff;
+
+}
+
+
+
+.hero{
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.hero p{
+
+    color:#aaa;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.button{
+
+    background:#8f7cff;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+
+
+.section-title{
+
+    text-align:center;
+
+    margin:30px;
+
+}
+
+
+
+.pet-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(230px,1fr));
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+
+
+.pet-card{
+
+    background:#1b1b22;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:.2s;
+
+}
+
+
+
+.pet-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+
+.pet-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+
+
+.pet-info{
+
+    padding:15px;
+
+}
+
+
+
+.pet-name{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+
+
+.rarity{
+
+    margin-top:5px;
+
+}
+
+
+
+.value{
+
+    margin-top:15px;
+
+}
+
+
+
+.demand{
+
+    margin-top:10px;
+
+}
+
+
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#777;
+
+}
