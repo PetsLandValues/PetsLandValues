@@ -4,7 +4,7 @@ const pets = [
 
     name: "Mint Chip Lemur",
 
-    image: "images/pets/mint-chip-lemur.png",
+    image: "images/pets/IMG_20260711_003010_288359.png",
 
     rarity: "Legendary",
 
